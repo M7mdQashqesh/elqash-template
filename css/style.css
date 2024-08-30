@@ -1682,6 +1682,12 @@ header .mega-menu ul.links li a i {
   border: none;
   font-size: 20px;
   font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.discount .righ-side .content form input[type="submit"]:hover {
+  background-color: var(--main-color-alt);
 }
 /* End Discount */
 
