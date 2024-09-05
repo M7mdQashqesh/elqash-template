@@ -1577,6 +1577,17 @@ header .mega-menu ul.links li a i {
   flex-wrap: wrap;
 }
 
+@keyframes change-background {
+  0%,
+  100% {
+    background-image: url(../imgs/discount-background1.jpg);
+  }
+
+  50% {
+    background-image: url(../imgs/discount-background2.jpg);
+  }
+}
+
 .discount .left-side {
   background-image: url(../imgs/discount-background1.jpg);
   background-size: cover;
@@ -1587,6 +1598,7 @@ header .mega-menu ul.links li a i {
   justify-content: center;
   position: relative;
   z-index: 1;
+  animation: change-background 10s linear infinite;
 }
 
 @media (max-width: 767px) {
